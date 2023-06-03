@@ -1,5 +1,0 @@
-function Decode(fPort, bytes, variables) {
-  var decoded = {};
-  decoded.data = String.fromCharCode.apply(null, bytes);
-  return decoded;
-}
